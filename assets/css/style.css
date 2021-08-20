@@ -1,7 +1,7 @@
 * {
 box-sizing: border-box;
 margin: 0;
-padding: 0;    
+list-style-type: none;    
 }
 
 
@@ -17,11 +17,84 @@ color: white;
 background: linear-gradient(0.25turn, blue, purple);
 text-align: center;
 padding: 15px 0;
-margin-bottom: 10px;
 }
+
+/*Search Styling starts*/
+.search-form {
+border-bottom: 1px solid black;
+margin: 15px;
+}
+
+.search-form h2 {
+padding-bottom: 5px;
+}
+
+#search-input {
+border: 1px solid gray;
+border-radius: 5px;
+height: 35px;
+width: 200px;
+}
+
+.submit-button {
+justify-content: end;
+display: flex;
+margin: 10px 0;
+width: fit-content;
+background-color: rgb(85, 61, 221);
+color: white;
+border-radius: 5px;
+padding: 10px 76px;
+}
+/*Search Styling ends*/
+
+/*Search History styling starts*/
+.past-searches li {
+border: 1px solid white;
+margin: 5px;
+padding: 5px;
+background-color: lightgray;
+color: black;
+border-radius: 5px;
+margin-left: 15px;
+}
+/*Search history styling ends
 
 /*Main Styling*/
 main {
 display: flex;
-list-style: none;
+}
+
+.main-card {
+border: 1px solid black;
+margin: 10px;
+padding: 20px;
+}
+
+.main-card ul {
+padding: 0;
+line-height: 30px;
+}
+
+/* 5-day forecast style starts */
+.forecast-flex {
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+
+.forecast-card {
+padding:10px;
+background-color: rgb(51, 71, 90);
+color: white;
+margin: 0 10px;
+
+}
+
+.forecast-card ul {
+padding: 0px;
+}
+
+.forecast-card li {
+line-height: 30px;
 }
