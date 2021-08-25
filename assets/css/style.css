@@ -75,7 +75,6 @@
   
   .user-cities {
     height: calc(100% - 137px);
-    overflow-y: scroll;
   }
   
   .city {
